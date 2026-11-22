@@ -1,0 +1,4 @@
+plugins { id 'com.android.application' }
+android { namespace 'com.corelargeprint'; compileSdk 35; buildToolsVersion '35.0.0'
+ defaultConfig { applicationId 'com.corelargeprint'; minSdk 23; targetSdk 35; versionCode 3; versionName '1.2-coreprint-raster' }
+}
